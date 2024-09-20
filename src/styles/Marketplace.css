@@ -1,0 +1,154 @@
+/* General Styles */
+.marketplace {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-container {
+  flex-grow: 1;
+  margin: 0 40px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Profile Menu */
+.profile-menu {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.profile-menu button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: left;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-menu button:last-child {
+  border-bottom: none;
+}
+
+.profile-menu button:hover {
+  background-color: #f8f8f8;
+}
+
+/* Main Content */
+.main-content {
+  padding: 40px;
+}
+
+.top-half {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  margin-bottom: 20px;
+}
+
+.bottom-half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.product {
+  padding: 50px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Greeting Text */
+.greeting-text {
+  font-size: 24px;
+  margin-bottom: 20px; /* Space between text and button */
+  color: #333;
+}
+
+/* Action Button */
+.action-button {
+  padding: 40px 80px; /* Increase the padding for a larger button */
+  background-color: #de0030;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Increase the font size */
+  margin: 0; /* Move button to the left */
+}
+
+.action-button:hover {
+  background-color: #c90029;
+}
+
+/* Filter button */
+.filter-button {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.filter-panel {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-content button {
+  background-color: #de0030;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.filter-content button:hover {
+  background-color: #c90029;
+}
